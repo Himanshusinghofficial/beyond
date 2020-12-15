@@ -1,0 +1,72 @@
+.parallax{
+    height: 500px;
+}
+
+body{
+  background-color: black;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(2, 2, 2, 0.9);
+}
+.video{
+  border-radius: 30px;
+    margin-top: 50px;
+    width: 500px;
+    height: 400px;
+}
+
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container {
+    min-height: 500px;
+    line-height: 0;
+    height: auto;
+    color: black;
+  }
+  .video{
+    border-radius: 30px;
+      margin-top: 50px;
+      width: auto;
+      height: 400px;
+  }
+  .parallax{
+    height: 700px;
+}
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  .video{
+    border-radius: 30px;
+      margin-top: 50px;
+      width: auto;
+      height: 400px;
+  }
+    .parallax-container {
+        min-height: 900px;
+        line-height: 0;
+        height: auto;
+        color: black;
+      }
+      .parallax{
+        height: 600px;
+    }
+  #index-banner .section {
+    top: 0;
+  }
+}
+.content{
+  font-family: Barlow;
+  font-size: 20px;
+  color: white;
+  margin: 50px;
+}
